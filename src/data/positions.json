@@ -1,0 +1,37 @@
+[
+  {
+    "index": 1, 
+    "val": 48, 
+    "key": "C"
+  }, 
+  {
+    "index": 2, 
+    "val": 169, 
+    "key": "G"
+  }, 
+  {
+    "index": 3, 
+    "val": 138, 
+    "key": "F"
+  }, 
+  {
+    "index": 4, 
+    "val": 6, 
+    "key": "C-F"
+  }, 
+  {
+    "index": 5, 
+    "val": 19, 
+    "key": "G-F"
+  }, 
+  {
+    "index": 6, 
+    "val": 13, 
+    "key": "F-G"
+  }, 
+  {
+    "index": 7, 
+    "val": 36, 
+    "key": "F-C"
+  }
+]

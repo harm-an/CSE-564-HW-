@@ -1,0 +1,17 @@
+{ "countries": "Countries" ,
+    "draft_years": "Draft Years" ,
+    "positions": "Positions" ,
+    "draft_peaks": "Draft Peaks" ,
+    "draft_rounds": "Draft Rounds" ,
+    "jerseys": "Jersey No." ,
+    "ratings": "Ratings" ,
+    "teams": "Teams" ,
+    "colleges": "Colleges" ,
+    "weightsLbs": "Weight (in LBS)" ,
+    "weightsKg": "Weight (in KG)" ,
+    "heightMeters": "Height (in Meters)" ,
+    "heightInches": "Height (in Inches)" ,
+    "salary": "Salary (x1000 USD)",
+    "yearNum": "Draft Year (Num)",
+    "ratingNum": "Ratings (Num)"
+}

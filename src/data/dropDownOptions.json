@@ -1,0 +1,18 @@
+[
+    { "value": "countries", "label": "Countries" },
+    { "value": "draft_years", "label": "Draft Years" },
+    { "value": "positions", "label": "Positions" },
+    { "value": "draft_peaks", "label": "Draft Peaks" },
+    { "value": "draft_rounds", "label": "Draft Rounds" },
+    { "value": "jerseys", "label": "Jerseys" },
+    { "value": "ratings", "label": "Ratings" },
+    { "value": "teams", "label": "Teams" },
+    { "value": "colleges", "label": "Colleges" },
+    { "value": "weightsLbs", "label": "Weight (in LBS)" },
+    { "value": "weightsKg", "label": "Weight (in KG)" },
+    { "value": "heightMeters", "label": "Height (in Meters)" },
+    { "value": "heightInches", "label": "Height (in Inches)" },
+    { "value": "salary", "label": "Salary" },
+    { "value": "yearNum", "label": "Draft Year (Num)" },
+    { "value": "ratingNum", "label": "Ratings (Num)" }
+]

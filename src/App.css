@@ -1,11 +1,218 @@
 .App {
   text-align: center;
+  height: 100vh;
+  background-color: #05050F;
+}
+
+.toolbar {
+  background-color: #14142C;
+  height: 80px;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  position: relative;
+}
+
+.body {
+  background-color: #05050F;
+  height: calc(100%-80px);
+  min-height: calc(100% - 80px);
+  width: 100%;
+  box-sizing: border-box;
+  padding: 40px;
+  flex-direction: row;
+  position: relative;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.leftMenu {
+  background-color: #14142C;
+  height: 750px;
+  width: 100px;
+  border-radius: 18px;
+  /* border-right: 1px solid #181837 ;
+  border-bottom: 1px solid #181837 ; */
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+.chart {
+  background-color: none; 
+  height:100px;
+  width: 100px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* background-color: white; */
+  position: relative;
+}
+
+.bar-chart {
+  background-color: none; 
+  height:100px;
+  width: 100px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* background-color: white; */
+  position: relative;
+}
+
+.sc-chart {
+  background-color: none; 
+  height:100px;
+  width: 100px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* background-color: white; */
+  position: relative;
+}
+
+.hist-chart {
+  background-color: none; 
+  height:100px;
+  width: 100px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* background-color: white; */
+  position: relative;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+  position: absolute;
+  left: 35px;
+}
+
+.icon path {
+  fill: #555682
+}
+
+.highlight {
+  height: 50%;
+  width: 2px;
+  background-color: none;
+}
+
+.bar-chart .highlight {
+  background-color: #82FC6B;
+}
+
+.bar-chart .icon .bar-one {
+  fill: #7E18FA;
+}
+.bar-chart .icon .bar-two {
+  fill: #01F1E4;
+}
+.bar-chart .icon .bar-three{
+  fill: #F17907;
+}
+
+
+
+.hist-chart .highlight {
+  background-color: #82FC6B;
+}
+.hist-chart .icon .histo-one {
+  fill: #7E18FA;
+}
+.hist-chart .icon .histo-two {
+  fill: #01F1E4;
+}
+.hist-chart .icon .histo-three {
+  fill: #F17907;
+}
+.hist-chart .icon .histo-four {
+  fill: #83FC6C;
+}
+
+
+.sc-chart .highlight {
+  background-color: #82FC6B;
+}
+.sc-chart .icon .sc-one {
+  fill: #7E18FA;
+}
+.sc-chart .icon .sc-two {
+  fill: #01F1E4;
+}
+.sc-chart .icon .sc-three {
+  fill: #F17907;
+}
+.sc-chart .icon .sc-four {
+  fill: #83FC6C;
+}
+.sc-chart .icon .sc-five {
+  fill: #0337EE;
+}
+
+
+.chart:hover .highlight, .chart.hover .highlight {
+  background-color: #82FC6B;
+}
+
+.chart:hover .icon .bar-one, .chart.hover .icon .bar-one {
+  fill: #7E18FA;
+}
+.chart:hover .icon .bar-two, .chart.hover .icon .bar-two {
+  fill: #01F1E4;
+}
+.chart:hover .icon .bar-three, .chart.hover .icon .bar-three {
+  fill: #F17907;
+}
+
+.chart:hover .icon .histo-one, .chart.hover .icon .histo-one {
+  fill: #7E18FA;
+}
+.chart:hover .icon .histo-two, .chart.hover .icon .histo-two {
+  fill: #01F1E4;
+}
+.chart:hover .icon .histo-three, .chart.hover .icon .histo-three {
+  fill: #F17907;
+}
+.chart:hover .icon .histo-four, .chart.hover .icon .histo-four {
+  fill: #83FC6C;
+}
+
+.chart:hover .icon .sc-one, .chart.hover .icon .sc-one {
+  fill: #7E18FA;
+}
+.chart:hover .icon .sc-two, .chart.hover .icon .sc-two {
+  fill: #01F1E4;
+}
+.chart:hover .icon .sc-three, .chart.hover .icon .sc-three {
+  fill: #F17907;
+}
+.chart:hover .icon .sc-four, .chart.hover .icon .sc-four {
+  fill: #83FC6C;
+}
+.chart:hover .icon .sc-five, .chart.hover .icon .sc-five {
+  fill: #0337EE;
+}
+
+.dropDown {
+  width: 600px;
+  height: 80px;
+  position: absolute;
+  top: 20px;
+  left: 630px;
+  fill: black;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +242,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.project-title {
+  font-family: Archia;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  right: 40px;
+  top: 15px;
+  background-color: #05050F;
+  padding: 10px;
 }

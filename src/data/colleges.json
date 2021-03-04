@@ -1,0 +1,557 @@
+[
+  {
+    "index": 1, 
+    "val": 1, 
+    "key": "San Diego State"
+  }, 
+  {
+    "index": 2, 
+    "val": 7, 
+    "key": "Michigan State"
+  }, 
+  {
+    "index": 3, 
+    "val": 3, 
+    "key": "Wyoming"
+  }, 
+  {
+    "index": 4, 
+    "val": 6, 
+    "key": "Virginia"
+  }, 
+  {
+    "index": 5, 
+    "val": 1, 
+    "key": "Colorado "
+  }, 
+  {
+    "index": 6, 
+    "val": 1, 
+    "key": "USC Upstate"
+  }, 
+  {
+    "index": 7, 
+    "val": 8, 
+    "key": "Indiana"
+  }, 
+  {
+    "index": 8, 
+    "val": 1, 
+    "key": "Louisiana"
+  }, 
+  {
+    "index": 9, 
+    "val": 11, 
+    "key": "Texas"
+  }, 
+  {
+    "index": 10, 
+    "val": 1, 
+    "key": "Tulsa"
+  }, 
+  {
+    "index": 11, 
+    "val": 11, 
+    "key": "Kansas"
+  }, 
+  {
+    "index": 12, 
+    "val": 4, 
+    "key": "Florida State"
+  }, 
+  {
+    "index": 13, 
+    "val": 2, 
+    "key": "West Virginia"
+  }, 
+  {
+    "index": 14, 
+    "val": 1, 
+    "key": "Florida Gulf Coast"
+  }, 
+  {
+    "index": 15, 
+    "val": 3, 
+    "key": "SMU"
+  }, 
+  {
+    "index": 16, 
+    "val": 3, 
+    "key": "Tulane"
+  }, 
+  {
+    "index": 17, 
+    "val": 1, 
+    "key": "DePaul"
+  }, 
+  {
+    "index": 18, 
+    "val": 2, 
+    "key": "Missouri"
+  }, 
+  {
+    "index": 19, 
+    "val": 2, 
+    "key": "Xavier"
+  }, 
+  {
+    "index": 20, 
+    "val": 2, 
+    "key": "Long Beach State"
+  }, 
+  {
+    "index": 21, 
+    "val": 2, 
+    "key": "Cincinnati"
+  }, 
+  {
+    "index": 22, 
+    "val": 6, 
+    "key": "Wake Forest"
+  }, 
+  {
+    "index": 23, 
+    "val": 2, 
+    "key": "Northeastern"
+  }, 
+  {
+    "index": 24, 
+    "val": 6, 
+    "key": "Washington"
+  }, 
+  {
+    "index": 25, 
+    "val": 3, 
+    "key": "Murray State"
+  }, 
+  {
+    "index": 26, 
+    "val": 5, 
+    "key": "Gonzaga"
+  }, 
+  {
+    "index": 27, 
+    "val": 3, 
+    "key": "St. John's"
+  }, 
+  {
+    "index": 28, 
+    "val": 1, 
+    "key": "Cal Poly"
+  }, 
+  {
+    "index": 29, 
+    "val": 8, 
+    "key": "Villanova"
+  }, 
+  {
+    "index": 30, 
+    "val": 3, 
+    "key": "Butler"
+  }, 
+  {
+    "index": 31, 
+    "val": 4, 
+    "key": "Maryland"
+  }, 
+  {
+    "index": 32, 
+    "val": 3, 
+    "key": "Boston College"
+  }, 
+  {
+    "index": 33, 
+    "val": 10, 
+    "key": "Arizona"
+  }, 
+  {
+    "index": 34, 
+    "val": 3, 
+    "key": "Wisconsin"
+  }, 
+  {
+    "index": 35, 
+    "val": 3, 
+    "key": "Pittsburgh"
+  }, 
+  {
+    "index": 36, 
+    "val": 8, 
+    "key": "Michigan"
+  }, 
+  {
+    "index": 37, 
+    "val": 2, 
+    "key": "TCU"
+  }, 
+  {
+    "index": 38, 
+    "val": 5, 
+    "key": "Oregon"
+  }, 
+  {
+    "index": 39, 
+    "val": 4, 
+    "key": "LSU"
+  }, 
+  {
+    "index": 40, 
+    "val": 1, 
+    "key": "Bucknell"
+  }, 
+  {
+    "index": 41, 
+    "val": 4, 
+    "key": "Syracuse"
+  }, 
+  {
+    "index": 42, 
+    "val": 7, 
+    "key": "Florida"
+  }, 
+  {
+    "index": 43, 
+    "val": 2, 
+    "key": "Saint Joseph's"
+  }, 
+  {
+    "index": 44, 
+    "val": 3, 
+    "key": "Baylor"
+  }, 
+  {
+    "index": 45, 
+    "val": 4, 
+    "key": "Saint Mary's"
+  }, 
+  {
+    "index": 46, 
+    "val": 6, 
+    "key": "Iowa State"
+  }, 
+  {
+    "index": 47, 
+    "val": 2, 
+    "key": "Valparaiso"
+  }, 
+  {
+    "index": 48, 
+    "val": 14, 
+    "key": "North Carolina"
+  }, 
+  {
+    "index": 49, 
+    "val": 3, 
+    "key": "Georgia Tech"
+  }, 
+  {
+    "index": 50, 
+    "val": 1, 
+    "key": "Lehigh"
+  }, 
+  {
+    "index": 51, 
+    "val": 3, 
+    "key": "Missouri "
+  }, 
+  {
+    "index": 52, 
+    "val": 1, 
+    "key": "Penn State"
+  }, 
+  {
+    "index": 53, 
+    "val": 4, 
+    "key": "Marquette"
+  }, 
+  {
+    "index": 54, 
+    "val": 2, 
+    "key": "Virginia Tech"
+  }, 
+  {
+    "index": 55, 
+    "val": 3, 
+    "key": "Oklahoma"
+  }, 
+  {
+    "index": 56, 
+    "val": 2, 
+    "key": "Providence"
+  }, 
+  {
+    "index": 57, 
+    "val": 5, 
+    "key": "Louisville"
+  }, 
+  {
+    "index": 58, 
+    "val": 4, 
+    "key": "Arkansas"
+  }, 
+  {
+    "index": 59, 
+    "val": 2, 
+    "key": "New Mexico"
+  }, 
+  {
+    "index": 60, 
+    "val": 2, 
+    "key": "Washington State"
+  }, 
+  {
+    "index": 61, 
+    "val": 2, 
+    "key": "Davidson"
+  }, 
+  {
+    "index": 62, 
+    "val": 1, 
+    "key": "Oklahoma State"
+  }, 
+  {
+    "index": 63, 
+    "val": 2, 
+    "key": "Miami (Florida)"
+  }, 
+  {
+    "index": 64, 
+    "val": 1, 
+    "key": "Dayton"
+  }, 
+  {
+    "index": 65, 
+    "val": 1, 
+    "key": "Holy Cross"
+  }, 
+  {
+    "index": 66, 
+    "val": 2, 
+    "key": "Vanderbilt"
+  }, 
+  {
+    "index": 67, 
+    "val": 2, 
+    "key": "Wichita State"
+  }, 
+  {
+    "index": 68, 
+    "val": 4, 
+    "key": "California"
+  }, 
+  {
+    "index": 69, 
+    "val": 2, 
+    "key": "Memphis"
+  }, 
+  {
+    "index": 70, 
+    "val": 2, 
+    "key": "Green Bay"
+  }, 
+  {
+    "index": 71, 
+    "val": 3, 
+    "key": "Georgia"
+  }, 
+  {
+    "index": 72, 
+    "val": 3, 
+    "key": "Purdue"
+  }, 
+  {
+    "index": 73, 
+    "val": 3, 
+    "key": "Notre Dame"
+  }, 
+  {
+    "index": 74, 
+    "val": 4, 
+    "key": "Creighton"
+  }, 
+  {
+    "index": 75, 
+    "val": 26, 
+    "key": "Duke"
+  }, 
+  {
+    "index": 76, 
+    "val": 3, 
+    "key": "Colorado"
+  }, 
+  {
+    "index": 77, 
+    "val": 1, 
+    "key": "Old Dominion"
+  }, 
+  {
+    "index": 78, 
+    "val": 1, 
+    "key": "Marshall"
+  }, 
+  {
+    "index": 79, 
+    "val": 1, 
+    "key": "Bowling Green"
+  }, 
+  {
+    "index": 80, 
+    "val": 14, 
+    "key": "UCLA"
+  }, 
+  {
+    "index": 81, 
+    "val": 2, 
+    "key": "Auburn"
+  }, 
+  {
+    "index": 82, 
+    "val": 5, 
+    "key": "Texas A&M"
+  }, 
+  {
+    "index": 83, 
+    "val": 1, 
+    "key": "Nevada"
+  }, 
+  {
+    "index": 84, 
+    "val": 2, 
+    "key": "Boise State"
+  }, 
+  {
+    "index": 85, 
+    "val": 9, 
+    "key": "USC"
+  }, 
+  {
+    "index": 86, 
+    "val": 2, 
+    "key": "Missouri State"
+  }, 
+  {
+    "index": 87, 
+    "val": 7, 
+    "key": "UNLV"
+  }, 
+  {
+    "index": 88, 
+    "val": 2, 
+    "key": "Norfolk State"
+  }, 
+  {
+    "index": 89, 
+    "val": 2, 
+    "key": "Georgetown"
+  }, 
+  {
+    "index": 90, 
+    "val": 1, 
+    "key": "Weber State"
+  }, 
+  {
+    "index": 91, 
+    "val": 3, 
+    "key": "Utah"
+  }, 
+  {
+    "index": 92, 
+    "val": 3, 
+    "key": "Louisiana Tech"
+  }, 
+  {
+    "index": 93, 
+    "val": 2, 
+    "key": "Arizona State"
+  }, 
+  {
+    "index": 94, 
+    "val": 5, 
+    "key": "Ohio State"
+  }, 
+  {
+    "index": 95, 
+    "val": 5, 
+    "key": "Stanford"
+  }, 
+  {
+    "index": 96, 
+    "val": 27, 
+    "key": "Kentucky"
+  }, 
+  {
+    "index": 97, 
+    "val": 2, 
+    "key": "VCU"
+  }, 
+  {
+    "index": 98, 
+    "val": 6, 
+    "key": "UConn"
+  }, 
+  {
+    "index": 99, 
+    "val": 2, 
+    "key": "Yale"
+  }, 
+  {
+    "index": 100, 
+    "val": 4, 
+    "key": "New Mexico State"
+  }, 
+  {
+    "index": 101, 
+    "val": 3, 
+    "key": "Alabama"
+  }, 
+  {
+    "index": 102, 
+    "val": 2, 
+    "key": "Western Kentucky"
+  }, 
+  {
+    "index": 103, 
+    "val": 2, 
+    "key": "NC State"
+  }, 
+  {
+    "index": 104, 
+    "val": 4, 
+    "key": "Houston"
+  }, 
+  {
+    "index": 105, 
+    "val": 3, 
+    "key": "Fresno State"
+  }, 
+  {
+    "index": 106, 
+    "val": 2, 
+    "key": "Tennessee State"
+  }, 
+  {
+    "index": 107, 
+    "val": 4, 
+    "key": "Kansas State"
+  }, 
+  {
+    "index": 108, 
+    "val": 6, 
+    "key": "Tennessee"
+  }, 
+  {
+    "index": 109, 
+    "val": 3, 
+    "key": "Texas Tech"
+  }, 
+  {
+    "index": 110, 
+    "val": 1, 
+    "key": "Illinois "
+  }, 
+  {
+    "index": 111, 
+    "val": 2, 
+    "key": "IUPUI"
+  }
+]

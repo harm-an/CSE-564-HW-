@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>scatter-graph</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="scatter-graph" fill-rule="nonzero">
+            <path d="M244.5,181 C203.145,181 169.5,214.645 169.5,256 C169.5,297.355 203.145,331 244.5,331 C285.855,331 319.5,297.355 319.5,256 C319.5,214.645 285.855,181 244.5,181 Z" id="Path" fill="#01F1E4" className="sc-one"></path>
+            <path d="M389.5,0 C356.416,0 329.5,26.916 329.5,60 C329.5,93.084 356.416,120 389.5,120 C422.584,120 449.5,93.084 449.5,60 C449.5,26.916 422.584,0 389.5,0 Z" id="Path" fill="#F17907" className="sc-two"></path>
+            <path d="M80,0 C35.888,0 0,35.888 0,80 C0,124.112 35.888,160 80,160 C124.112,160 160,124.112 160,80 C160,35.888 124.112,0 80,0 Z" id="Path" fill="#83FC6C" className="sc-three"></path>
+            <path d="M432,301 C387.888,301 352,336.888 352,381 C352,425.112 387.888,461 432,461 C476.112,461 512,425.112 512,381 C512,336.888 476.112,301 432,301 Z" id="Path" fill="#0337EE" className="sc-four"></path>
+            <path d="M60,392 C26.916,392 0,418.916 0,452 C0,485.084 26.916,512 60,512 C93.084,512 120,485.084 120,452 C120,418.916 93.084,392 60,392 Z" id="Path" fill="#7E18FA" className="sc-five"></path>
+        </g>
+    </g>
+</svg>

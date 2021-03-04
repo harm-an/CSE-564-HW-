@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900&display=swap');
+.chartArea {
+    height: 750px;
+    width: 1500px;
+    position: absolute;
+    left: 180px;
+    top: 40px;
+    border-radius: 18px;
+    background-color: #14142C;
+    display: "grid";
+    justify-content: center;
+}
+
+.chartData {
+    position: absolute;
+    top: 40px;
+    left: 1720px;
+    height: 750px;
+    width: calc(100vw - 220px + 140px - 180px - 1500px);
+    background-color: #14142C;
+    border-radius: 18px;
+}
+
+.dataDetailsArea {
+    height: 280px;
+    width: calc(100vw - 220px + 140px);
+    position: absolute;
+    left: 40px;
+    top: 830px;
+    border-radius: 18px;
+    background-color: none;
+}
+
+.nbaImage { 
+    height: 100%;
+    position: absolute;
+    left: 0;
+    border-radius: 18px;
+}
+
+.columnDetails {
+    height: 100%;
+    position: absolute;
+    left: 460px;
+    border-radius: 18px;
+    background-color: #9B1BFA;
+    width: 420px;
+}
+
+.columnDetails:hover {
+    background-color: #032FD1;
+}
+
+.columnDetails .text1 {
+    font-family: Archia;
+    font-size: 30px;
+    color: white;
+    left: 40px;
+    position: absolute;
+    top: 40px;
+}
+
+.columnDetails .text2 {
+    font-family: Archia;
+    font-size: 80px;
+    color: white;
+    left: 40px;
+    position: absolute;
+    top:100px;
+}
+
+.columnDetails .text3 {
+    font-family: Archia;
+    font-size: 20px;
+    color: white;
+    left: 40px;
+    position: absolute;
+    top:210px;
+}
+
+.rowDetails {
+    height: 100%;
+    position: absolute;
+    left: 920px;
+    border-radius: 18px;
+    background-color: #F34E1E;
+    width: 420px;
+}
+
+.rowDetails:hover {
+    background-color: #032FD1;
+}
+
+.rowDetails .text1 {
+    font-family: Archia;
+    font-size: 30px;
+    color: white;
+    left: 40px;
+    position: absolute;
+    top: 40px;
+}
+
+.rowDetails .text2 {
+    font-family: Archia;
+    font-size: 80px;
+    color: white;
+    left: 40px;
+    position: absolute;
+    top:100px;
+}
+
+.rowDetails .text3 {
+    font-family: Archia;
+    font-size: 20px;
+    color: white;
+    left: 40px;
+    position: absolute;
+    top:210px;
+}
+
+.about {
+    height: 100%;
+    position: absolute;
+    left: 1380px;
+    border-radius: 18px;
+    background-color: #032FD1;
+    width: 1100px;
+    text-align: left;
+}
+
+.about:hover {
+    background-color: #032FD1;
+}
+
+.about .text1 {
+    font-family: Archia;
+    font-size: 30px;
+    color: white;
+    left: 40px;
+    position: absolute;
+    top: 40px;
+}
+
+.about .text2 {
+    font-family: Archia;
+    font-size: 18px;
+    color: white;
+    left: 40px;
+    position: absolute;
+    top:100px;
+    padding-right: 40px;
+}
+
+.about .text3 {
+    font-family: Archia;
+    font-size: 20px;
+    color: white;
+    left: 40px;
+    position: absolute;
+    top:210px;
+}
+.sBar:hover{
+    fill: pink;
+}
+
+.chartFinal {
+    background-color:none;
+    position: absolute;
+    left: 150px;
+    top:150px;
+    height: 500px;
+    width: 1200px
+}
+
+.domain {
+    stroke: #ffffff
+}
+
+.xAxis .tick line {
+    stroke:#ffffff
+}
+
+.xAxis .tick text {
+    fill: #ffffff;
+    font-size: 13px;
+    font-family: Archia;
+}
+
+.xAxis-hist .tick line {
+    stroke:#ffffff
+}
+
+.xAxis-hist .tick text {
+    fill: #ffffff;
+    font-size: 15px;
+}
+
+.yAxis .tick line {
+    stroke:#ffffff
+}
+
+.yAxis .tick text {
+    fill: #ffffff;
+    font-size: 15px;
+    font-family: Archia;
+}
+
+.grid .tick line {
+    stroke: #555682
+}
+
+.unselected_bar {
+    fill: #F34E1E;
+    stroke: white;
+    
+}
+
+.unselected_bar-hist {
+    fill: #9B1BFA;
+    stroke: white;
+    
+}
+
+.selected_bar {
+    fill: #82FC6B;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    stroke: white
+}
+
+.chartTitle {
+    height: 150px;
+    width: 400px;
+    background-color: none;
+    align-items: center;
+    position: relative;
+}
+
+.chartDataTitle {
+    height: 150px;
+    width: 400px;
+    background-color: none;
+    align-items: center;
+    position: relative;
+}
+
+.chartTitle text {
+    font-family: Archia;
+    left: 50px;
+    position: absolute;
+    top: 50px;
+    font-size: 50px;
+    color: white;
+}
+
+.chartDataTitle text {
+    font-family: Archia;
+    left: 50px;
+    position: absolute;
+    top: 50px;
+    font-size: 50px;
+    color: white;
+}
+
+.xAxisTitle {
+    height: 40px;
+    width: 240px;
+    border-radius: 6px;
+    background-color: #05050F;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 630px;
+    /* transform: rotate(-90deg); */
+}
+
+.xAxisTitleHist {
+    height: 40px;
+    width: 240px;
+    border-radius: 6px;
+    background-color: #05050F;
+    position: absolute;
+    bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 630px;
+    /* transform: rotate(-90deg); */
+}
+
+.xAxisTitleHist text {
+    font-family: Archia;
+    position: absolute;
+    font-size: 20px;
+    color: #82FC6B;
+}
+
+.sc-attr1-title {
+    height: 280px;
+    width: 340px;
+    border-radius: 18px;
+    background-color: #05050F;
+    position: absolute;
+    top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 40px;
+    text-align: left;
+    /* transform: rotate(-90deg); */
+}
+
+.sc-attr1-title .text1 {
+    font-family: Archia;
+    position: absolute;
+    font-size: 30px;
+    left: 40px;
+    top: 40px;
+    color: #82FC6B;
+}
+
+.sc-attr1-title .text2 {
+    font-family: Archia;
+    font-size: 40px;
+    color: white;
+    left: 40px;
+    position: absolute;
+    top:100px;
+}
+
+/* .rowDetails .text1 {
+    font-family: Archia;
+    font-size: 30px;
+    color: white;
+    left: 40px;
+    position: absolute;
+    top: 40px;
+}
+
+.rowDetails .text2 {
+    font-family: Archia;
+    font-size: 80px;
+    color: white;
+    left: 40px;
+    position: absolute;
+    top:100px;
+} */
+
+.sc-attr2-title {
+    height: 280px;
+    width: 340px;
+    border-radius: 18px;
+    background-color: #05050F;
+    position: absolute;
+    top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 420px;
+    text-align: left;
+    /* transform: rotate(-90deg); */
+}
+
+.sc-attr2-title .text1 {
+    font-family: Archia;
+    position: absolute;
+    font-size: 30px;
+    left: 40px;
+    top: 40px;
+    color: #82FC6B;
+    padding-right: 40px;
+}
+
+.sc-attr2-title .text2 {
+    font-family: Archia;
+    font-size: 40px;
+    color: white;
+    left: 40px;
+    position: absolute;
+    top:100px;
+    padding-right: 40px;
+}
+
+.sc-attr3-title {
+    height: 250px;
+    width: 340px;
+    border-radius: 18px;
+    background-color: #05050F;
+    position: absolute;
+    top: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 420px;
+    text-align: left;
+    /* transform: rotate(-90deg); */
+}
+
+.sc-attr3-title .text1 {
+    font-family: Archia;
+    position: absolute;
+    font-size: 30px;
+    left: 40px;
+    top: 40px;
+    color: #82FC6B;
+}
+
+.sc-attr3-title .text2 {
+    font-family: Archia;
+    font-size: 80px;
+    color: white;
+    left: 40px;
+    position: absolute;
+    top:100px;
+    padding-right: 40px;
+}
+
+.sc-attr4-title {
+    height: 250px;
+    width: 340px;
+    border-radius: 18px;
+    background-color: #05050F;
+    position: absolute;
+    top: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 40px;
+    text-align: left;
+    /* transform: rotate(-90deg); */
+}
+
+.sc-attr4-title .text1 {
+    font-family: Archia;
+    position: absolute;
+    font-size: 30px;
+    left: 40px;
+    top: 40px;
+    color: #82FC6B;
+}
+
+.sc-attr4-title .text2 {
+    font-family: Archia;
+    font-size: 40px;
+    color: white;
+    left: 40px;
+    position: absolute;
+    top:100px;
+    padding-right: 40px;
+}
+
+.sc-radio-title {
+    height: 170px;
+    width: 340px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    background-color: #05050F;
+    position: absolute;
+    top: 540px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 40px;
+    /* transform: rotate(-90deg); */
+}
+
+.sc-radio-container {
+    height: 170px;
+    width: 380px;
+    border-radius: 6px;
+    background-color: #05050F;
+    position: absolute;
+    top: 540px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    left: 380px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    /* transform: rotate(-90deg); */
+}
+
+.sc-radio-container .text1 {
+    font-family: Archia;
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    left: 50px;
+    top: 50px
+}
+
+.sc-radio-container .radio1 {
+    position: absolute;
+    left: 20px;
+    top: 50px
+}
+
+.sc-radio-container .radio2 {
+    position: absolute;
+    left: 20px;
+    top: 100px
+}
+
+.sc-radio-container .text2 {
+    font-family: Archia;
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    left: 50px;
+    top: 100px;
+}
+
+.sc-radio-title text {
+    font-family: Archia;
+    position: absolute;
+    font-size: 30px;
+    color: #82FC6B;
+}
+
+.xAxisTitle text {
+    font-family: Archia;
+    position: absolute;
+    font-size: 20px;
+    color: #82FC6B;
+}
+
+.yAxisTitle {
+    height: 40px;
+    width: 240px;
+    border-radius: 6px;
+    background-color: #05050F;
+    position: absolute;
+    top: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 630px;
+    transform: rotate(-90deg); 
+    left: -30px
+}
+
+.yAxisTitle text {
+    font-family: Archia;
+    position: absolute;
+    font-size: 20px;
+    color: #82FC6B;
+}
+
+.drop {
+    height: 100px;
+    width: 400px;
+    background-color: white;
+}
+
+.drop text {
+    font-size: 20px;
+}
+
+.sc-dropDown1 {
+    width: 340px;
+    height: 80px;
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    fill: none;
+    background-color: none;
+}
+
+.sc-dropDown2 {
+    width: 340px;
+    height: 80px;
+    position: absolute;
+    top: 220px;
+    left: 420px;
+    fill: none;
+    background-color: none;
+}
+
+.mylogo {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 60px;
+    top: 10px;
+}
